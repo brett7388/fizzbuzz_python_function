@@ -6,3 +6,7 @@ def test_calculate_input_of_three_returns_fizz():
 
     assert "Fizz" == value
 
+def test_calculate_input_of_five_returns_buzz():
+    value = calculate(5)
+
+    assert "Buzz" == value

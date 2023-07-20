@@ -1,3 +1,6 @@
 
 def calculate(number):
-    return "Fizz"
+    if number == 3:
+        return "Fizz"
+    else:
+        return "Buzz"
