@@ -8,4 +8,4 @@ def calculate(number):
         return "Buzz"
     
     else:
-        return 1
+        return number
