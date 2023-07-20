@@ -1,3 +1,3 @@
 
 def calculate(number):
-    pass
+    return "Fizz"
