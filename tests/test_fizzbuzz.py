@@ -25,3 +25,8 @@ def test_calculate_multiple_of_three():
     value = calculate(27)
 
     assert "Fizz" == value
+
+def test_calculate_multiple_of_five():
+    value = calculate(10)
+
+    assert "Buzz" == value
