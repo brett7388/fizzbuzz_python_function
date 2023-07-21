@@ -25,3 +25,8 @@ def test_calculate_input_of_six():
     value = calculate(6)
 
     assert "Fizz" == value
+
+def test_calculate_input_of_ten():
+    value = calculate(10)
+
+    assert "Buzz" == value
