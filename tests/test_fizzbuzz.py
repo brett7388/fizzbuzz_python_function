@@ -15,3 +15,13 @@ def test_calculate_input_of_three_and_five():
     value = calculate(15)
 
     assert "FizzBuzz" == value
+
+def test_calculate_input_of_none():
+    value = calculate(1)
+
+    assert 1 == value
+
+def test_calculate_input_of_six():
+    value = calculate(6)
+
+    assert "Fizz" == value
