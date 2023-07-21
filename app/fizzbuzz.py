@@ -4,3 +4,5 @@ def calculate(number):
         return "Fizz"
     if number == 5:
         return "Buzz"
+    if number % 15 == 0:
+        return "FizzBuzz"
