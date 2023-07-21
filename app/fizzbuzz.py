@@ -6,5 +6,5 @@ def calculate(number):
         return "Fizz"
     if number % 5 == 0:
         return "Buzz"
-    else:
-        return 1
+    if number % 15 != 0:
+        return number

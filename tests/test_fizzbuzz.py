@@ -30,3 +30,13 @@ def test_calculate_input_of_ten():
     value = calculate(10)
 
     assert "Buzz" == value
+
+def test_calculate_input_of_30():
+    value = calculate(30)
+
+    assert "FizzBuzz" == value
+
+def test_caluclate_input_of_two():
+    value = calculate(2)
+
+    assert 2 == value
