@@ -35,3 +35,8 @@ def test_calculate_divisble_of_30():
     value = calculate(30)
 
     assert "FizzBuzz" == value
+
+def test_calculate_divisble_of_two():
+    value = calculate(2)
+
+    assert 2 == value
