@@ -20,3 +20,8 @@ def test_caluclate_divisble_of_one():
     value = calculate(1)
 
     assert 1 == value
+
+def test_calculate_divisble_of_three():
+    value = calculate(6)
+
+    assert "Fizz" == value
