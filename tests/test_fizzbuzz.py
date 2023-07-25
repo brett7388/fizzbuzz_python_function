@@ -30,3 +30,8 @@ def test_calculate_divisble_of_five():
     value = calculate(10)
 
     assert "Buzz" == value
+
+def test_calculate_divisble_of_30():
+    value = calculate(30)
+
+    assert "FizzBuzz" == value
