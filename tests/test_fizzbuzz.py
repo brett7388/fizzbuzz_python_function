@@ -25,3 +25,8 @@ def test_calculate_divisble_of_three():
     value = calculate(6)
 
     assert "Fizz" == value
+
+def test_calculate_divisble_of_five():
+    value = calculate(10)
+
+    assert "Buzz" == value
